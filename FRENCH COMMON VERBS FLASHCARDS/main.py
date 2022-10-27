@@ -49,7 +49,7 @@ flip_timer = window.after(3000, func=flip_card)
 
 canvas = Canvas(width=800,height=526)
 card_front_img = PhotoImage(file="images/card_front.png")
-card_back_img = PhotoImage(file="../../Downloads/Tkinter-Flashcards-main-4/images/card_back.png")
+card_back_img = PhotoImage(file="images/card_back.png")
 card_background = canvas.create_image(400,263,image=card_front_img)
 canvas.config(bg=BACKGROUND_COLOR, highlightthickness=0)
 card_title = canvas.create_text(400,150,text="Title", font=("Arial", 40, "bold"))
